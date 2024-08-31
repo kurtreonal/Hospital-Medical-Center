@@ -1,0 +1,10 @@
+body {
+    background-image: url("../Assets/Unavaible.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+

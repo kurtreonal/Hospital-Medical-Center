@@ -1,0 +1,130 @@
+.img-border{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.img-border {
+    border: 1px solid #dee2e6 !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+}
+.img-container-f {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 635px;
+    max-width: 100%;
+}
+
+.room-image {
+    background-image: url("../Assets/OUR-ROOMS-BG.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    position: relative;
+}
+
+.a-content-size {
+    font-size: 250%;
+}
+
+.b-content-size {
+    font-size: 100%;
+}
+
+@media all and (max-width: 490px){
+    .a-content-size {
+        font-size: 160%;
+    }
+
+    .b-content-size {
+        font-size: 70%;
+    }
+
+    .a-content {
+        right: 20%;
+        position: relative;
+        bottom: 344px;
+        font-size: larger;
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 25px;
+        margin-left: 25%;
+        margin-right: 17%;
+        color: #1b651b;
+    }
+
+    .b-content {
+        right: 20%;
+        position: relative;
+        bottom: 370px;
+        font-size: medium;
+        color: white;
+        margin-left: 7%;
+    }
+}
+
+@media all and (max-width: 410px) {
+    .a-content-size {
+        font-size: 155%;
+    }
+
+    .b-content-size {
+        font-size: 65%;
+    }
+}
+
+
+@media all and (max-width: 370px) {
+    .a-content-size {
+        font-size: 140%;
+    }
+
+    .b-content-size {
+        font-size: 60%;
+    }
+}
+
+@media all and (max-width: 370px) {
+    .a-content-size {
+        font-size: 140%;
+    }
+
+    .b-content-size {
+        font-size: 55%;
+    }
+
+    .room-image {
+        background-image: url(../Assets/OUR-ROOMS-BG.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 70%;
+        z-index: -1;
+        position: relative;
+    }
+
+    .img-container-f {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 425px;
+        max-width: 100%;
+    }
+
+    .a-content-size {
+        font-size: 140%;
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 230px) {
+    .not-supported-ratio {
+        display: none;
+    }
+    .not-supported-ratio-msg::before {
+        content: url('../Assets/not-supported-ratio.png');
+        zoom: 50%;
+    }
+}

@@ -1,0 +1,2129 @@
+@import url('https://fonts.googleapis.com/css?family=Antic Slab');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #1b651b;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
+li {
+    list-style: none;
+}
+.img-container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 635px;
+}
+.image {
+    background-image: url("../Assets/cvsu\ nursings.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+.contact-container{
+    background-color: rgba(59, 123, 43, 0.6);
+    color: white;
+    padding: 2% 2% 2% 2%;
+    position: absolute;
+    bottom: 85px;
+    right: 50px;
+    margin-right: 5%;
+    z-index: 999;
+}
+
+tr{
+    border-bottom: solid 1px white;
+}
+
+.contact-heading {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 3px solid white;
+    padding: 10px 20px;
+}
+
+table{
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 85%;
+}
+
+.table-container{
+    display: block;
+}
+
+.table-container tr td {
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #1b651b;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #CC6666;
+}
+
+.site-title a{
+    color: #1b651b;
+    font-size: 28px;
+    position: absolute;
+    left: 160px;
+    bottom: 60px;
+    border-bottom-style: solid;
+}
+
+.site-title {
+    font-weight: 100;
+    font-family: "Antic Slab";
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 25px;
+    margin-left: 17%;
+    margin-right: 17%;
+    color: #1b651b;
+}
+
+.header{
+    border-bottom: 1px solid darkslategray;
+    background-color: white;
+    position: fixed;
+    padding-left: 55%;
+    padding-bottom: 1%;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 0% 0px 0%;
+    margin-left: -30%;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    height: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    position: relative !important;
+    z-index: 1 !important;
+    top: 150%;
+    right: 80%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 0px 0 0;
+}
+
+.nav-link{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #1b651b;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover{
+    color: #CC6666;
+}
+
+.nav-logo {
+    width: 10%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    position: absolute;
+    left: 1%;
+}
+
+.border-bottom {
+    margin-left: 27%;
+    margin-right: 27%;
+    margin-bottom: 1%;
+}
+
+.logos {
+    display: table;
+    margin: auto;
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.logo-image {
+    margin-bottom: 20px;
+}
+
+.content-boxes {
+    font-weight: 100;
+    align-items: inherit;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 100;
+    font-family: "Antic Slab";
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.commitment{
+    font-weight: 100;
+    font-family: "Antic Slab";
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 25px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.content-box-text {
+    font-size: 13px;
+}
+
+img {
+    max-width: 100%;
+    width: auto\9; /* ie8 */
+}
+
+.a-content{
+    right: 25%;
+    position: relative;
+    bottom: 344px;
+    font-size: larger;
+    font-weight: 100;
+    font-family: "Antic Slab";
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 25px;
+    margin-left: 17%;
+    margin-right: 17%;
+    color: #1b651b;
+}
+
+.b-content {
+    right: 25%;
+    position: relative;
+    bottom: 370px;
+    font-size: medium;
+    color: white;
+}
+
+button{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 50px;
+    background-color: #1b651b;
+    border-radius: 0.25rem;
+    border: 1px solid #1b651b;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    right: 25%;
+    position: relative;
+    bottom: 340px;
+    transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+    background-color: #CC4949;
+}
+
+.content-box-heading:hover {
+    color: #CC4949;
+}
+
+.content-box-heading{
+    transition: color .4s ease;
+}
+
+.about-image{
+    flex:1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-image:hover img{
+    transform: scale(1.2);
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+    margin: auto auto 3% auto;
+    max-width: 15%;
+}
+@media only screen and (max-width: 1440px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: rgba(59, 123, 43, 0.6);
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+
+    .table-container{
+        display: block;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container tr td {
+        padding: 10px 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10% 0% 0px 0%;
+        margin-left: -30%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    .contact-container{
+        background-color: rgba(59, 123, 43, 0.6);
+        color: white;
+        padding: 2% 2% 2% 2%;
+        position: absolute;
+        bottom: 85px;
+        right: 50px;
+    }
+
+    .contact-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-bottom: 2px solid white;
+        padding: 10px 20px;
+    }
+    .table-container{
+        display: block;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container tr td {
+        padding: 10px 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a{
+        color: #1b651b;
+        font-size: 25px;
+        position: absolute;
+        left: 160px;
+        bottom: 60px;
+        border-bottom-style: solid;
+    }
+
+    .header{
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 55%;
+        padding-bottom: 1%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -30%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        z-index: -1;
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .nav-link {
+        font-size: 23px;
+        font-weight: 400;
+        color: #1b651b;
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    .contact-container{
+        background-color: rgba(59, 123, 43, 0.6);
+        color: white;
+        padding: 2% 2% 2% 2%;
+        position: absolute;
+        bottom: 85px;
+        right: 50px;
+        margin-right: 5%
+    }
+
+    .contact-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-bottom: 2px solid white;
+        padding: 10px 20px;
+    }
+    .table-container{
+        display: block;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container tr td {
+        padding: 10px 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 25px;
+        position: absolute;
+        left: 160px;
+        bottom: 50px;
+        border-bottom-style: solid;
+    }
+
+    .header{
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 55%;
+        padding-bottom: 1%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -30%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        z-index: -1;
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        font-weight: 400;
+        color: #1b651b;
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    .commitment{
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 20px;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    .contact-container{
+        background-color: rgba(59, 123, 43, 0.6);
+        color: white;
+        padding: 2% 2% 2% 2%;
+        position: absolute;
+        bottom: 85px;
+        right: 50px;
+        margin-right: 5%
+    }
+
+    .contact-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-bottom: 2px solid white;
+        padding: 10px 20px;
+    }
+    .table-container{
+        display: block;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container tr td {
+        padding: 10px 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 24px;
+        position: absolute;
+        left: 140px;
+        bottom: 45px;
+        border-bottom-style: solid;
+    }
+
+    .header{
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 55%;
+        padding-bottom: 1%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -30%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        z-index: -1;
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        font-weight: 400;
+        color: #1b651b;
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    .commitment{
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 17px;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+@media only screen and (max-width: 1015px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    .contact-container{
+        background-color: rgba(59, 123, 43, 0.6);
+        color: white;
+        padding: 2% 2% 2% 2%;
+        position: absolute;
+        bottom: 85px;
+        right: 50px;
+        margin-right: 5%
+    }
+
+    .contact-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-bottom: 2px solid white;
+        padding: 10px 20px;
+    }
+    .table-container{
+        display: block;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container tr td {
+        padding: 10px 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 20px;
+        position: absolute;
+        left: 130px;
+        bottom: 40px;
+        border-bottom-style: solid;
+    }
+
+    .header{
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 55%;
+        padding-bottom: 1%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -30%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        z-index: -1;
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .nav-link {
+        font-size: 17px;
+        font-weight: 100;
+        color: #1b651b;
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    .commitment{
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 16px;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+
+    h2 {
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    .contact-container {
+        background-color: rgba(59, 123, 43, 0.6);
+        color: white;
+        padding: 2% 2% 2% 2%;
+        position: absolute;
+        bottom: 85px;
+        right: 50px;
+        margin-right: -3%;
+    }
+
+    .contact-heading {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-bottom: 2px solid white;
+        padding: 10px 20px;
+    }
+    .table-container{
+        display: block;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container tr td {
+        padding: 10px 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 20px;
+        position: absolute;
+        left: 130px;
+        bottom: 40px;
+        border-bottom-style: solid;
+    }
+
+    .header {
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 60%;
+        padding-bottom: 1%;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 0% 0px 0%;
+        margin-left: -40%;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        z-index: -1;
+        position: relative;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        font-weight: 100;
+        color: #1b651b;
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 10%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    .commitment{
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 15px;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+
+    h2 {
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+    .contact-container{
+        display: none !important;
+    }
+
+    .contact-heading {
+        display: none !important;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container{
+        display: none !important;
+    }
+
+    .table-container tr td {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 20px;
+        position: absolute;
+        left: 130px;
+        bottom: 40px;
+        border-bottom-style: solid;
+    }
+
+    .header {
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 100%;
+        padding-bottom: 10%;
+        z-index: 1000; /* overrides everything and put the navbar to the front */
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+background-color: #1b651b;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -190%;
+    }
+
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        border: #1b651b solid 1px;
+    }
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        right: -20px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 15%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    /*hamburger menu*/
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+    .commitment{
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 14px;
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+
+    h2 {
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+
+    .container{
+        max-width: 100% !important;
+        justify-content: unset;
+        display: block;
+    }
+
+    .logos {
+        display: table;
+        margin: auto;
+    }
+
+    .logo-image{
+        margin-bottom: 20px;
+    }
+
+    .contact-container{
+        display: none !important;
+    }
+
+    .contact-heading {
+        display: none !important;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container{
+        display: none !important;
+    }
+
+    .table-container tr td {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 20px;
+        position: absolute;
+        left: 170px;
+        bottom: 50px;
+        border-bottom-style: solid;
+    }
+
+    break-point::before{
+        content: "hiddentext";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+    }
+
+    .header {
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 100%;
+        padding-bottom: 18%;
+        z-index: 1000;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -190%;
+    }
+
+    .nav-menu {
+        border: #1b651b solid 1px;
+        position: fixed;
+        right: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        right: -20px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 25%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    .a-content {
+        right: 25%;
+        position: relative;
+        bottom: 344px;
+        font-size: larger;
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 25px;
+        margin-left: 25%;
+        margin-right: 17%;
+        color: #1b651b;
+    }
+
+    .b-content {
+        right: 25%;
+        position: relative;
+        bottom: 370px;
+        font-size: medium;
+        color: white;
+        margin-left: 7%;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .socials a i {
+        font-size: 1.1rem !important;
+        transition: color .4s ease !important;
+    }
+
+    .about-image img {
+        width: 80%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+        transition: 0.5s ease;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+
+    h2 {
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+
+    .container{
+        max-width: 100% !important;
+        justify-content: unset;
+        display: block;
+    }
+
+    .logos {
+        display: table;
+        margin: auto;
+    }
+
+    .logo-image{
+        margin-bottom: 20px;
+    }
+
+    .contact-container{
+        display: none !important;
+    }
+
+    .contact-heading {
+        display: none !important;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container{
+        display: none !important;
+    }
+
+    .table-container tr td {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 15px;
+        position: absolute;
+        left: 140px;
+        bottom: 50px;
+        border-bottom-style: solid;
+    }
+
+    .header {
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 100%;
+        padding-bottom: 20%;
+        z-index: 1000;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -190%;
+    }
+
+    .nav-menu {
+        border: #1b651b solid 1px;
+        position: fixed;
+        right: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        right: -20px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 25%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    .f-container {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+
+    ::-webkit-scrollbar {
+        width: 20px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #1b651b;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+    li {
+        list-style: none;
+    }
+
+    h2 {
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .img-container {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 635px;
+    }
+    .image {
+        background-image: url("../Assets/cvsu\ nursings.jpg");
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        position: relative;
+    }
+
+    .container{
+        max-width: 100% !important;
+        justify-content: unset;
+        display: block;
+    }
+
+    .logos {
+        display: table;
+        margin: auto;
+    }
+
+    .logo-image{
+        margin-bottom: 20px;
+    }
+
+    .contact-container{
+        display: none !important;
+    }
+
+    .contact-heading {
+        display: none !important;
+    }
+
+    table{
+        max-width: 100%;
+        background-color: transparent;
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 85%;
+    }
+
+    .table-container{
+        display: none !important;
+    }
+
+    .table-container tr td {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #1b651b;
+    }
+
+    .site-title a {
+        color: #1b651b;
+        font-size: 15px;
+        position: absolute;
+        left: 110px;
+        bottom: 50px;
+        border-bottom-style: solid;
+    }
+
+    .header {
+        border-bottom: 1px solid darkslategray;
+        background-color: white;
+        position: fixed;
+        padding-left: 100%;
+        padding-bottom: 20%;
+        z-index: 1000;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1b651b;
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 13% 0% 0px 0%;
+        margin-left: -190%;
+    }
+
+    .nav-menu {
+        border: #1b651b solid 1px;
+        position: fixed;
+        right: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 0 0px 0 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        right: -20px;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-link:hover{
+        color: #CC6666;
+    }
+
+    .nav-logo {
+        width: 25%;
+        height: auto;
+        margin-top: 10px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+    .break-point::before{
+        content: "hiddentext";
+        font-size: 0;
+        display: block;
+        line-height: 0;
+    }
+
+    .b-content {
+        right: 25%;
+        position: relative;
+        bottom: 370px;
+        font-size: small;
+        color: white;
+        margin-left: 9%;
+    }
+}
+
+@media all and (max-width: 315px) {
+    .site-title a {
+        color: #1b651b;
+        font-size: 13px;
+        position: absolute;
+        left: 80px;
+        bottom: 20px;
+        border-bottom-style: solid;
+    }
+
+    .nav-logo {
+        width: 25%;
+        height: auto;
+        margin-top: 25px;
+        display: flex;
+        position: absolute;
+        left: 1%;
+    }
+
+
+    .a-content {
+        right: 10%;
+        position: relative;
+        bottom: 344px;
+        font-size: larger;
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 25px;
+        margin-left: 25%;
+        margin-right: 17%;
+        color: #1b651b;
+    }
+
+    .b-content {
+        right: 10%;
+        position: relative;
+        bottom: 370px;
+        font-size: small;
+        color: white;
+        margin-left: 9%;
+    }
+
+    button {
+        display: inline-block;
+        outline: none;
+        cursor: pointer;
+        padding: 15px 20px;
+        background-color: #1b651b;
+        border-radius: 0.25rem;
+        border: 1px solid #1b651b;
+        color: #fff;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        text-align: center;
+        right: 10%;
+        position: relative;
+        bottom: 340px;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+@media (max-width: 230px) {
+    .not-supported-ratio {
+        display: none;
+    }
+
+    .not-supported-ratio-msg::before {
+        content: url('../Assets/not-supported-ratio.png');
+        zoom: 50%;
+    }
+}
+/*Footer*/
+footer{
+    background: #F9F9FB;
+    height: auto;
+    font-family: Helvetica, sans-serif;
+    color: black;
+    border-top: solid 1px #1b651b;
+
+}
+
+.f-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-content {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #1b651b;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+}
+
+.socials li {
+    margin: 0 20px;
+}
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+.socials a i{
+    font-size: 2.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #F9F9FB;
+    color: #1b651b;
+    padding: 20px 0;
+    border-top: solid 1px lightgrey;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}

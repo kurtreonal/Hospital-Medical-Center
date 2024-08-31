@@ -1,0 +1,278 @@
+::placeholder {
+  color: #1b651b;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: white;
+}
+
+/*contact*/
+form {
+  width: 340px;
+  margin-right: 15%;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.feedback-input {
+  color: #1b651b;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #1b651b;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus {
+  border:2px solid #1b651b;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background: #1b651b;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+    background:#CC4949;
+}
+.columns {
+  width: 47.8%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.flex-child:first-child {
+  margin-right: 10px;
+}
+
+video {
+  position: relative;
+  width: 400px;
+  margin-right: 10%;
+  margin-left: 15%;
+  margin-top: -345px;
+}
+
+.text-pos{
+  position: relative;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.text-size{
+  font-size: 250%;
+  z-index: 999;
+}
+
+.text-size-address {
+  font-size: 200px;
+  z-index: 999;
+}
+
+.bottom-spacing {
+  margin-bottom: 32px;
+}
+
+.assets{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 30px 0 0 0;
+  box-sizing: border-box;
+}
+
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {
+  transition: transform 0.45s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  transform: scale(1.6);
+  cursor: zoom-out
+}
+
+@media all and (max-width: 1200px){
+  form {
+    max-width: 340px;
+    position: relative;
+    margin-right: 13%;
+    margin-left: auto;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  video {
+    position: relative;
+    width: 400px;
+    margin-right: 13%;
+    margin-left: 10%;
+    margin-top: -345px;
+  }
+}
+
+@media all and (max-width: 1080px){
+  /*contact*/
+  form {
+    max-width: 340px;
+    position: relative;
+    margin-right: 10%;
+    margin-left: auto;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  video {
+    position: relative;
+    width: 400px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: -345px;
+  }
+}
+
+@media all and (max-width: 980px) {
+
+  /*contact*/
+  form {
+    max-width: 340px;
+    position: relative;
+    margin-right: 8%;
+    margin-left: auto;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  video {
+    position: relative;
+    width: 400px;
+    margin-right: 10%;
+    margin-left: 8%;
+    margin-top: -345px;
+  }
+}
+
+@media all and (max-width: 900px) {
+
+  /*contact*/
+  form {
+    max-width: 340px;
+    position: relative;
+    margin-right: 5%;
+    margin-left: auto;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  video {
+    position: relative;
+    width: 400px;
+    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: -345px;
+  }
+}
+
+@media all and (max-width: 830px) {
+  /*contact*/
+  form {
+    max-width: 35%;
+    position: relative;
+    margin-right: 10%;
+    margin-left: auto;
+    top: 60%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  video {
+    position: relative;
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: -345px;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .container-contact{
+    max-width: 100% !important;
+    justify-content: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form {
+    max-width: 90%;
+    margin: 20px auto 20px auto;
+    top: unset;
+  }
+
+  video {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .text-size {
+    font-size: 165%;
+  }
+}
+
+@media (max-width: 230px) {
+  .not-supported-ratio {
+      display: none;
+  }
+  .not-supported-ratio-msg::before {
+      content: url('../Assets/not-supported-ratio.png');
+      zoom: 50%;
+  }
+}

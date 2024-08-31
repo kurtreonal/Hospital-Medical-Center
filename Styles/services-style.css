@@ -1,0 +1,179 @@
+.img-container-s {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 635px;
+    max-width: 100%;
+}
+
+.room-image-s {
+    background-image: url("../Assets/services2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    position: relative;
+}
+
+.a-content-size-s {
+    font-size: 250%;
+}
+
+.b-content-size-s {
+    font-size: 100%;
+}
+
+.flex-services {
+    display: table;
+    margin: auto;
+    width: 40%;
+}
+
+.services-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.border-shadow {
+    border: 1px solid #dee2e6 !important;
+    box-shadow: 0 10px 15px -3px
+     rgba(0, 0, 0, .1), 0 4px 6px -2px
+     rgba(0, 0, 0, .05)
+}
+
+.font-pos {
+    font-size: 30px;
+    font-weight: 400;
+    color: #1b651b;
+    margin: 3% 5%;
+}
+
+.ul-pos {
+    color: #1b651b;
+    font-size: 20px;
+    margin: 2%;
+}
+
+.s-content {
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    justify-content: center;
+}
+@media all and (max-width: 670px) {
+    .flex-services {
+        display: table;
+        margin: auto;
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    .s-content {
+        font-size: 15px;
+        font-weight: 100;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: relative;
+        justify-content: center;
+    }
+}
+@media all and (max-width: 490px){
+    .a-content-size-s {
+        font-size: 160%;
+    }
+
+    .b-content-size-s {
+        font-size: 70%;
+    }
+
+    .a-content-s {
+        right: 20%;
+        position: relative;
+        bottom: 344px;
+        font-size: larger;
+        font-weight: 100;
+        font-family: "Antic Slab";
+        text-align: center;
+        margin-bottom: 45px;
+        font-size: 25px;
+        margin-left: 25%;
+        margin-right: 17%;
+        color: #1b651b;
+    }
+
+    .b-content-s {
+        right: 20%;
+        position: relative;
+        bottom: 370px;
+        font-size: medium;
+        color: white;
+        margin-left: 7%;
+    }
+}
+
+@media all and (max-width: 410px) {
+    .a-content-size {
+        font-size: 155%;
+    }
+
+    .b-content-size {
+        font-size: 65%;
+    }
+}
+
+
+@media all and (max-width: 370px) {
+    .a-content-size {
+        font-size: 140%;
+    }
+
+    .b-content-size {
+        font-size: 60%;
+    }
+}
+
+@media all and (max-width: 370px) {
+    .a-content-size-s {
+        font-size: 140%;
+    }
+
+    .b-content-size-s {
+        font-size: 55%;
+    }
+
+    .room-image-s {
+        background-image: url(../Assets/OUR-ROOMS-BG.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 70%;
+        z-index: -1;
+        position: relative;
+    }
+
+    .img-container-s {
+        text-align: center;
+        position: relative;
+        width: 100%;
+        height: 425px;
+        max-width: 100%;
+    }
+
+    .a-content-size-s {
+        font-size: 140%;
+        margin-top: 40%;
+    }
+
+    .font-pos {
+        font-size: 20px;
+    }
+
+    .ul-pos {
+        color: #1b651b;
+        font-size: 13px;
+        margin: 2%;
+    }
+}
